@@ -1,4 +1,4 @@
-# AMD Ryzen AI 本地语音机械臂服务（实验性）
+# AMD Ryzen AI 本地语音机械臂服务
 
 在 Windows PC 上运行语音识别、文本大模型和语音合成，让兼容的 ESP32-S3 机械臂固件通过工具调用响应中文指令。默认文本模型是 AMD 提供的 Qwen3-8B Ryzen AI 1.8.0 NPU 4K 部署版本。
 
