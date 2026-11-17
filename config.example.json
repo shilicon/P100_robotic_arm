@@ -1,0 +1,17 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "lan_host": "192.0.2.10",
+  "api_key": "GENERATE_WITH_SCRIPTS_CONFIGURE_PY",
+  "robot_api_key": "GENERATE_WITH_SCRIPTS_CONFIGURE_PY",
+  "llm_model": "qwen3-8b-npu-4k",
+  "llm_max_context": 4096,
+  "llm_output_tokens": 160,
+  "llm_do_sample": false,
+  "llm_chat_input_tokens": 1024,
+  "asr_silence_ms": 800,
+  "tts_prebuffer_ms": 240,
+  "amd_installation_path": "",
+  "amd_environment": "",
+  "asr_python": ".venv-asr/Scripts/python.exe"
+}

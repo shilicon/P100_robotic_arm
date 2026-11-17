@@ -1,0 +1,9 @@
+# Run inside a venv inheriting AMD Ryzen AI 1.8.0's Python 3.12 environment.
+# Keep AMD's onnxruntime-vitisai and onnxruntime-genai-directml-ryzenai packages.
+# Never replace them with stock onnxruntime/onnxruntime-genai wheels here.
+fastapi==0.161.1
+uvicorn==0.54.0
+websockets==15.0.1
+transformers==4.57.6
+numpy==1.26.4
+pywin32==312; sys_platform == "win32"

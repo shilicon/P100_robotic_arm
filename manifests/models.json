@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "models": [
+    {
+      "id": "qwen",
+      "source": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K",
+      "revision": "21b7692377beeba88303a7aa59d32bffed7feff3",
+      "files": [
+        {
+          "path": "qwen3-8b-npu-4k/.gitattributes",
+          "size": 2068,
+          "algorithm": "git-sha1",
+          "digest": "50335f3871f2390dc9db006985fa0384b331a30b",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/.gitattributes"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/LICENSE",
+          "size": 11343,
+          "algorithm": "git-sha1",
+          "digest": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/LICENSE"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/README.md",
+          "size": 2739,
+          "algorithm": "git-sha1",
+          "digest": "37726a95e8df822d3aa6cd69786428b2b5180930",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/README.md"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/added_tokens.json",
+          "size": 735,
+          "algorithm": "git-sha1",
+          "digest": "6f359db5332581e047a7a804174c7f6d8435081c",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/added_tokens.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/cache/Token_modellayers.0input_layernormMLADFRMSNORM_meta.json",
+          "size": 1521085,
+          "algorithm": "git-sha1",
+          "digest": "b660053f1d9f62eb63f0dbfc4ca73d84d102697b",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/cache/Token_modellayers.0input_layernormMLADFRMSNORM_meta.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/cache/modellayers.0input_layernormMLADFRMSNORM_meta.json",
+          "size": 1638611,
+          "algorithm": "git-sha1",
+          "digest": "b00b9994548eec9aa07c56f22b49c7042294459a",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/cache/modellayers.0input_layernormMLADFRMSNORM_meta.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/cache/txn_bins.zip",
+          "size": 1373520,
+          "algorithm": "sha256",
+          "digest": "b1951d0e9533469b81c7c5444152e80b970c858ef74af0af042fca47e07957a2",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/cache/txn_bins.zip"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/chat_template.jinja",
+          "size": 4256,
+          "algorithm": "git-sha1",
+          "digest": "b11e13ef0c59aa4b052a74de766e263c5b9332ec",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/chat_template.jinja"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/config.json",
+          "size": 3745,
+          "algorithm": "git-sha1",
+          "digest": "87c8481b60f828459d78cc02372a3ed783204ecc",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/config.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM.fconst",
+          "size": 3785821248,
+          "algorithm": "sha256",
+          "digest": "828177191d069ea6baf909639fe5d8a6258713c1add81fc53419a0ef6e0839b6",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM.fconst"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM.state",
+          "size": 839,
+          "algorithm": "sha256",
+          "digest": "0a01a618eeb9e4725e93f9660e96a8bdc6977be6243cec17b7cfa72cf89280b7",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM.state"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.meta",
+          "size": 112810609,
+          "algorithm": "sha256",
+          "digest": "dd1da39f387e90136053ffff7b9f2b94a4cf30b44383eda2c3af8365c0744cb3",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1024_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.meta",
+          "size": 34241818,
+          "algorithm": "sha256",
+          "digest": "3242fc5ac9e9405676512b2ff5e72db49b17ea002af4dbba9b1d2e94ff72dc19",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_128_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.meta",
+          "size": 155136897,
+          "algorithm": "sha256",
+          "digest": "f8202bedc27f381ffc855fbeef43fb4d2294e86684e218453e4cda558229aa12",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_1536_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.meta",
+          "size": 191565603,
+          "algorithm": "sha256",
+          "digest": "63c48fdf62ca27b6f75d2d11eb192cdfd6475b1b9cebb02af230244a86e82a6c",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2048_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.meta",
+          "size": 239096067,
+          "algorithm": "sha256",
+          "digest": "46687ece314138b0ca041b4c5e67e4ef1941c0fbceaf067c3c673e0ed1bbd8d8",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_2304_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.meta",
+          "size": 44390150,
+          "algorithm": "sha256",
+          "digest": "282932f221159e3aff9e189b7a695b11ec6d1859ee121861d12eb94e7c7eb87f",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_256_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.meta",
+          "size": 270425420,
+          "algorithm": "sha256",
+          "digest": "812b0830f907d5d48a990a7beade6d55c1af7c2a90c428fe1bc6b4734d04767f",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_3072_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.meta",
+          "size": 304773688,
+          "algorithm": "sha256",
+          "digest": "fa81b5bb74147c8ec074a1d541083f7bd86eccbe17761bcbbf1532fee166d77d",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_4096_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.meta",
+          "size": 72874302,
+          "algorithm": "sha256",
+          "digest": "da2b9bc787cab6d41a77d6d09cd75d0574cee1d2ad7d3c08edb13c1404aba559",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_512_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.ctrlpkt",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.meta",
+          "size": 97356390,
+          "algorithm": "sha256",
+          "digest": "c3ca05245a13cb69b6c853199648b798614c84083eb0444392eadb38535b0d3e",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Prefill_modellayers.0input_layernormMLADFRMSNORM_sequence_length_padded_768_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM.fconst",
+          "size": 3756627264,
+          "algorithm": "sha256",
+          "digest": "795deb9b246867a49827efc305285f781a138c22479166607c0ab396d3d05d8f",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM.fconst"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM.state",
+          "size": 1044,
+          "algorithm": "sha256",
+          "digest": "1dc91d75a060e677c5fecec84d3c904c2fbd80a9e06710d2a23f4f6347bb4aff",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM.state"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "0915185b2aec84d2ee44574f767d44f941e1e9d3388604c0ffecc8fdd9b33d10",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "10df29f4d054c17812b5f1de13f3ba3730f893f79be4688c238043085e848321",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1024_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.ctrlpkt",
+          "size": 11259384,
+          "algorithm": "sha256",
+          "digest": "a30b5cc805c7efc6b4628567bb19e69736a01d003cd5d9efcaf5c45e04ccf4ed",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.meta",
+          "size": 2662482,
+          "algorithm": "sha256",
+          "digest": "bf44416faa368bb45053c6d3d07437cbbc8b85d6394b837d7f7465ca64be121f",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1280_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "7cd701ff928f6cf3ae628c60f5af1345ea2fe3409a1e83fd20eec565cd4b9a37",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "214ec056ff151bfd4bdee890c685f6d778181817b5316bc954d4f7500769b941",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_1536_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "2887da41d7526692c8ff942eeb10799573332facd4bc0ca563c9ff3b3108212b",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "26cd3279fedfbf1308938958e828ad735704125cfb1c6eb8b225bc1028231553",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2048_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.ctrlpkt",
+          "size": 11259384,
+          "algorithm": "sha256",
+          "digest": "3b7188a5f57fbb01cad710a7d540d92bc7d55955bb0d4ed384e6f7873478363d",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.meta",
+          "size": 2662482,
+          "algorithm": "sha256",
+          "digest": "0b299f78a18f90f1ac4f289fdc447b1cfa778a47599eef0d465eac8591749abe",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2304_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "2d1156e39fbbb93fe967a096399277a671d07250bfbff9c752ac9f6aef20c26e",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "5fc11f79ed55ca4dc805c42f3bd61173ad65d92e7021ad8f64d1a7c3a5617a55",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2560_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.ctrlpkt",
+          "size": 11259384,
+          "algorithm": "sha256",
+          "digest": "0068bf9a82f2f408ad24774608d9596dd81fca2b072bb6f278897abfba56d809",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.meta",
+          "size": 2662482,
+          "algorithm": "sha256",
+          "digest": "d17112fdcf19db718769b3815bb1676b41be75e5513f6fea9aefdf219937656c",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_2816_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "2cba5fd31d05a58f9898749ef1012bf9a1739d3c4bf3a96ec7520280f2cd160e",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "3bf5d3a66b4155ad205f7c8406e9a0de7f9dd2b35d9fe5b19bd127e743a9d00c",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3072_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.ctrlpkt",
+          "size": 11259384,
+          "algorithm": "sha256",
+          "digest": "b5dc30cf5b0a70f1a62132341de679d35165748fe4703df688e84828ac37d475",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.meta",
+          "size": 2662482,
+          "algorithm": "sha256",
+          "digest": "802d25447e4367efb987fb6ec94697508ecb3b1b6d993d678f84d1215fdaeaf0",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3328_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "c5c0a70ec43e801de0b99d9fd3ffcc1ea51f8005894871f3ec0ebfcff438120b",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "79b285b44261a2457171eec24503ac994258549d089bb740358ca3f7ce24dde4",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3584_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.ctrlpkt",
+          "size": 11259384,
+          "algorithm": "sha256",
+          "digest": "36b7494bd5e4815e45c637155a382b52ca71f619c9a3640d30cbc7cdc37e94a1",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.meta",
+          "size": 2662482,
+          "algorithm": "sha256",
+          "digest": "8a962798d05dcee81c3a34ffda22ca66317e7b6e5c40e46d81e1a8551d739e68",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_3840_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.ctrlpkt",
+          "size": 11149224,
+          "algorithm": "sha256",
+          "digest": "17fcd083cb53f7dab5699d2a5dbe527aed9b90dd7a2ef27d63c8fe5c90d5b883",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.meta",
+          "size": 2662478,
+          "algorithm": "sha256",
+          "digest": "0cd1517c3d01e13639630c72ed2aff597ec51bd67dff35b30a62e1e87db8ec09",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_384_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "b3921e31727f7d4c6c28ee6c4706335e2be70357fb5619f2d2bfdd8bc2cd749d",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.meta",
+          "size": 2662481,
+          "algorithm": "sha256",
+          "digest": "392a123481d4ed48bdeb15b72f4be346e20e5730b9acc14c0ceb163415db5376",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_4096_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.ctrlpkt",
+          "size": 11237352,
+          "algorithm": "sha256",
+          "digest": "7080b37eeabde39d4bfd09fd99c10034645055b308471fe3c51895774339eee3",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.ctrlpkt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.meta",
+          "size": 2662479,
+          "algorithm": "sha256",
+          "digest": "5d2eebce45397db568e9e75451030a51c313d902ed9831f030960f54ba143944",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.meta"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.super",
+          "size": 0,
+          "algorithm": "git-sha1",
+          "digest": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/dd_metastate_Llm_Token_Token_modellayers.0input_layernormMLADFRMSNORM_attention_mask_padded_512_.super"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/genai_config.json",
+          "size": 1870,
+          "algorithm": "git-sha1",
+          "digest": "d6ddb50577563b507fe454db7642a2d482a4d0a6",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/genai_config.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/generation_config.json",
+          "size": 214,
+          "algorithm": "git-sha1",
+          "digest": "be89f8af8cb53cdfeaa15cc2c340fe0ce5b01378",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/generation_config.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/merges.txt",
+          "size": 1671853,
+          "algorithm": "git-sha1",
+          "digest": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/merges.txt"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/model.onnx",
+          "size": 42826381,
+          "algorithm": "sha256",
+          "digest": "4667cf0a330a7bd2a23600bee2513999afe879a000461e1f085ed8a83e2f5a57",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/model.onnx"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/model.onnx.data",
+          "size": 1588189184,
+          "algorithm": "sha256",
+          "digest": "79575fb42d319255f30ea9c2596d45bdc4930ee507b971429586ee109e17a33a",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/model.onnx.data"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/rai_config.json",
+          "size": 230,
+          "algorithm": "git-sha1",
+          "digest": "18504080a5071745c54f583c91dad0c1603eea9c",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/rai_config.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/special_tokens_map.json",
+          "size": 644,
+          "algorithm": "git-sha1",
+          "digest": "3a7840311c8c90df33c823cdbb06626f920c509e",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/special_tokens_map.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/tokenizer.json",
+          "size": 11422654,
+          "algorithm": "sha256",
+          "digest": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/tokenizer.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/tokenizer_config.json",
+          "size": 5642,
+          "algorithm": "git-sha1",
+          "digest": "7ae2635a86380831f868817510dbc5f6f96171a3",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/tokenizer_config.json"
+        },
+        {
+          "path": "qwen3-8b-npu-4k/vocab.json",
+          "size": 2776833,
+          "algorithm": "git-sha1",
+          "digest": "4783fe10ac3adce15ac8f358ef5462739852c569",
+          "url": "https://huggingface.co/amd/Qwen3-8B_rai_1.8.0_npu_4K/resolve/21b7692377beeba88303a7aa59d32bffed7feff3/vocab.json"
+        }
+      ]
+    },
+    {
+      "id": "sensevoice",
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17",
+      "revision": "2365baeacb507f821a0c8120fcee3d484dba7a07",
+      "files": [
+        {
+          "path": "sensevoice/LICENSE",
+          "size": 71,
+          "algorithm": "git-sha1",
+          "digest": "b5aafcccf5cfd5f7293c710bd6588dc6544eef2b",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/LICENSE"
+        },
+        {
+          "path": "sensevoice/README.md",
+          "size": 104,
+          "algorithm": "git-sha1",
+          "digest": "a05f82e98818e72a7184df7580dac4aa72ac41c3",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/README.md"
+        },
+        {
+          "path": "sensevoice/model.int8.onnx",
+          "size": 239233841,
+          "algorithm": "sha256",
+          "digest": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/model.int8.onnx"
+        },
+        {
+          "path": "sensevoice/tokens.txt",
+          "size": 315894,
+          "algorithm": "git-sha1",
+          "digest": "2cfc92fc2ff26aaa690b7c01fd96b41109413881",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/tokens.txt"
+        }
+      ]
+    },
+    {
+      "id": "silero",
+      "source": "https://github.com/snakers4/silero-vad",
+      "revision": "bfdc0193023f121ea5b3cc7b176dbed570a68a59",
+      "files": [
+        {
+          "path": "silero_vad.onnx",
+          "size": 2327524,
+          "algorithm": "sha256",
+          "digest": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+          "url": "https://raw.githubusercontent.com/snakers4/silero-vad/bfdc0193023f121ea5b3cc7b176dbed570a68a59/src/silero_vad/data/silero_vad.onnx"
+        },
+        {
+          "path": "silero/LICENSE",
+          "size": 1075,
+          "algorithm": "sha256",
+          "digest": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+          "url": "https://raw.githubusercontent.com/snakers4/silero-vad/bfdc0193023f121ea5b3cc7b176dbed570a68a59/LICENSE"
+        }
+      ]
+    }
+  ]
+}

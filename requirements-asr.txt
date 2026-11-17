@@ -1,0 +1,3 @@
+# Separate CPU environment; no AMD runtime inheritance.
+numpy==1.26.4
+sherpa-onnx==1.13.8

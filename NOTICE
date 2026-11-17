@@ -1,0 +1,19 @@
+AMD Ryzen AI local robotic arm service
+
+The Apache License, Version 2.0 applies only to the project-owned backend,
+independently written integration helpers, tests, prompts and documentation
+included in the public source package.
+
+It does not license third-party firmware, vendor modifications, animations,
+sound effects, model weights, compiled model artifacts, runtime distributions,
+or Windows voices. These are excluded from the public source package.
+
+Protocol identifiers and numeric constraints in tests describe interoperability
+requirements. Test descriptions and the public prompt are independently written;
+they are not a redistribution of the vendor's tool descriptions or system prompt.
+
+AMD, Ryzen AI, Qwen, Microsoft and other product names identify dependencies
+and compatibility targets; no affiliation or endorsement is implied.
+
+The publisher must hold the rights to the backend code before releasing it
+under this license. See THIRD_PARTY_NOTICES.md and docs/RELEASE.md.

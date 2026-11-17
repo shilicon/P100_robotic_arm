@@ -1,0 +1,507 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "self_get_device_status",
+      "description": "Read device state.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_audio_speaker_set_volume",
+      "description": "Set speaker volume in percent.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "volume": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "volume"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_screen_show_text",
+      "description": "Display text for a specified number of milliseconds.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "duration": {
+            "type": "integer",
+            "default": 5000,
+            "minimum": 1000,
+            "maximum": 60000
+          }
+        },
+        "required": [
+          "text"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_camera_describe_view",
+      "description": "Unsupported vision operation; used only to test filtering.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "default": "Describe the scene."
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_camera_preview",
+      "description": "Request a camera preview.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_set_power_mode",
+      "description": "Select a device power mode.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "mode"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_set_language",
+      "description": "Select device language.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "language"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_enter_standby",
+      "description": "Enter standby.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_calibrate",
+      "description": "Change calibration mode: 0 exits, 1 enters.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "mode"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_teach_start",
+      "description": "Start recording a taught movement.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_teach_stop",
+      "description": "Save the recording without playback.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_teach_play",
+      "description": "Play a saved movement.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_teach_cancel",
+      "description": "Discard the current recording.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_teach_status",
+      "description": "Read recording status.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_idle_motion",
+      "description": "Enable or disable idle movement.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "enable": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "enable"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_stretch",
+      "description": "Request stretching.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_apology",
+      "description": "Request an apology gesture.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_shy",
+      "description": "Request a shy gesture.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_coquetry",
+      "description": "Request a playful gesture.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_bow",
+      "description": "Request a bow.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_feign_death",
+      "description": "Request a feigned-death gesture.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_wag_tail",
+      "description": "Request base oscillation.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_node",
+      "description": "Request nodding.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_shake",
+      "description": "Request head shaking.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_action_status",
+      "description": "Read the current action and busy flag.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_stop",
+      "description": "Stop and return to the home pose. This moves the arm and is not an emergency stop.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_x",
+      "description": "Translate in cm; positive points forward.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "integer",
+            "minimum": -3,
+            "maximum": 3
+          }
+        },
+        "required": [
+          "x"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_y",
+      "description": "Translate in cm; positive points left.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "y": {
+            "type": "integer",
+            "minimum": -2,
+            "maximum": 2
+          }
+        },
+        "required": [
+          "y"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_z",
+      "description": "Translate in cm; positive points up.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "z": {
+            "type": "integer",
+            "minimum": -5,
+            "maximum": 5
+          }
+        },
+        "required": [
+          "z"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_yaw",
+      "description": "Rotate in degrees; positive turns left.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "yaw": {
+            "type": "integer",
+            "minimum": -60,
+            "maximum": 60
+          }
+        },
+        "required": [
+          "yaw"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_pitch",
+      "description": "Rotate in degrees; positive tilts down.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "pitch": {
+            "type": "integer",
+            "minimum": -30,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "pitch"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_arm_roll",
+      "description": "Rotate in degrees; positive tilts left.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "roll": {
+            "type": "integer",
+            "minimum": -30,
+            "maximum": 30
+          }
+        },
+        "required": [
+          "roll"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_laser_control",
+      "description": "Select laser mode: off (0), on (1), or cycle (2).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          }
+        },
+        "required": [
+          "mode"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "self_ble_remote_control",
+      "description": "Enable (1) or disable (0) Bluetooth remote control.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "enable": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "enable"
+        ]
+      }
+    }
+  }
+]
