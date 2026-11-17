@@ -1,5 +1,7 @@
 # AMD Ryzen AI 本地语音机械臂服务
 
+[项目网页与技术文档](https://shilicon.github.io/P100_robotic_arm/)
+
 在 Windows PC 上运行语音识别、文本大模型和语音合成，让兼容的 ESP32-S3 机械臂固件通过工具调用响应中文指令。默认文本模型是 AMD 提供的 Qwen3-8B Ryzen AI 1.8.0 NPU 4K 部署版本。
 
 **本仓库发布的是 PC 后端、协议说明、独立编写的测试与鉴权接入代码。厂商机械臂固件、动作实现、声音和动画没有取得再分发授权，不随仓库提供。** 连接实物需要另行取得合法的兼容固件。
@@ -37,6 +39,7 @@ flowchart LR
 | `firmware-integration/` | 独立鉴权头文件与设备接入说明，不含厂商实现 |
 | `manifests/models.json` | 外部模型的固定版本、文件大小及校验值 |
 | `docs/` | 协议、模型许可、硬件与发布边界 |
+| `website/index.html` | 项目网页，推送到 `main` 后自动部署到 GitHub Pages |
 
 ## 只运行离线测试
 
@@ -86,6 +89,8 @@ python scripts/test_offline.py
 首次下载和安装需要联网。文件备齐后，后端推理使用本地模型。固件本身是否还调用厂商云服务，需由固件持有人单独审查。本项目的本地后端并不能保证整台设备离线。
 
 ## 发布
+
+项目网站由 GitHub Pages 托管，编辑 `website/index.html` 并推送到 `main` 即可更新，详见 [网站维护说明](docs/WEBSITE.md)。
 
 ```sh
 python scripts/export_public.py --check

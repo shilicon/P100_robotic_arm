@@ -11,7 +11,7 @@ FILES = {"README.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "SECURITY.m
          ".gitignore", "config.example.json", "requirements.txt", "requirements-asr.txt", "requirements-test.txt"}
 DIRECTORIES = {"app": {".py"}, "scripts": {".py", ".ps1"}, "tests": {".py", ".json", ".cc"},
                "prompts": {".txt"}, "docs": {".md"}, "firmware-integration": {".h", ".md"},
-               "manifests": {".json"}, ".github": {".yml", ".yaml"}}
+               "manifests": {".json"}, ".github": {".yml", ".yaml"}, "website": {".html"}}
 SENSITIVE = re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}|\bAKIA[A-Z0-9]{16}\b")
 
 
