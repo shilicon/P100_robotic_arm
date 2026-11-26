@@ -7,7 +7,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-FILES = {"README.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "SECURITY.md", "CONTRIBUTING.md",
+FILES = {"README.md", "README.en.md", "LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md", "SECURITY.md", "CONTRIBUTING.md",
          ".gitignore", "config.example.json", "requirements.txt", "requirements-asr.txt", "requirements-test.txt"}
 DIRECTORIES = {"app": {".py"}, "scripts": {".py", ".ps1"}, "tests": {".py", ".json", ".cc"},
                "prompts": {".txt"}, "docs": {".md"}, "firmware-integration": {".h", ".md"},

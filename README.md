@@ -1,10 +1,12 @@
 # AMD Ryzen AI 本地语音机械臂服务
 
+**简体中文** | [English](README.en.md)
+
 [项目网页与技术文档](https://shilicon.github.io/P100_robotic_arm/)
 
 在 Windows PC 上运行语音识别、文本大模型和语音合成，让兼容的 ESP32-S3 机械臂固件通过工具调用响应中文指令。默认文本模型是 AMD 提供的 Qwen3-8B Ryzen AI 1.8.0 NPU 4K 部署版本。
 
-**本仓库发布的是 PC 后端、协议说明、独立编写的测试与鉴权接入代码。厂商机械臂固件、动作实现、声音和动画没有取得再分发授权，不随仓库提供。** 连接实物需要另行取得合法的兼容固件。
+**本仓库包含 PC 后端、协议说明、独立编写的测试与鉴权接入代码。厂商机械臂固件、动作实现、声音和动画没有取得再分发授权，不随仓库提供。** 连接实物需要另行取得合法的兼容固件。
 
 ## 实际能力与边界
 
@@ -34,12 +36,12 @@ flowchart LR
 | --- | --- |
 | `app/` | PC 后端、工作进程、对话规则与流式处理 |
 | `prompts/` | 独立维护的提示词 |
-| `scripts/` | 配置生成、安装、模型校验、测试和公开包导出 |
+| `scripts/` | 配置生成、安装、模型校验与测试等辅助工具 |
 | `tests/` | 离线回归测试与不执行设备动作的服务集成测试 |
 | `firmware-integration/` | 独立鉴权头文件与设备接入说明，不含厂商实现 |
 | `manifests/models.json` | 外部模型的固定版本、文件大小及校验值 |
-| `docs/` | 协议、模型许可、硬件与发布边界 |
-| `website/index.html` | 项目网页，推送到 `main` 后自动部署到 GitHub Pages |
+| `docs/` | 协议、安装、模型许可与硬件说明 |
+| `website/index.html` | 项目网页 |
 
 ## 只运行离线测试
 
@@ -88,19 +90,8 @@ python scripts/test_offline.py
 
 首次下载和安装需要联网。文件备齐后，后端推理使用本地模型。固件本身是否还调用厂商云服务，需由固件持有人单独审查。本项目的本地后端并不能保证整台设备离线。
 
-## 发布
-
-项目网站由 GitHub Pages 托管，编辑 `website/index.html` 并推送到 `main` 即可更新，详见 [网站维护说明](docs/WEBSITE.md)。
-
-```sh
-python scripts/export_public.py --check
-python scripts/export_public.py --output dist/public-source.zip
-```
-
-建议将 ZIP 解压到一个新的目录，在那里初始化 Git 并发布。不要把原始 Windows 部署目录整体上传。导出器使用明确允许清单，排除私有配置、厂商文件、模型、日志、音频、运行环境和构建产物，并生成逐文件 SHA-256 清单。详见 [发布范围](docs/RELEASE.md)。
-
-本地清理验证不等于 Windows/NPU/真实机械臂验证，当前状态见 [测试记录](docs/TESTING.md)。本项目与 AMD 或机械臂厂商没有官方隶属或背书关系。
+离线测试不能替代 Windows/NPU/真实机械臂验证，当前状态见 [测试记录](docs/TESTING.md)。
 
 ## 许可
 
-公开的自有后端与独立新增文件采用 [Apache-2.0](LICENSE)，范围见 [NOTICE](NOTICE)。外部模型、AMD 运行时、Windows 语音和厂商固件各自遵循原有条款，见 [第三方说明](THIRD_PARTY_NOTICES.md)。只有你有权授权的代码才能按本仓库许可发布。
+自有后端与独立新增文件采用 [Apache-2.0](LICENSE)，范围见 [NOTICE](NOTICE)。外部模型、AMD 运行时、Windows 语音和厂商固件各自遵循原有条款，见 [第三方说明](THIRD_PARTY_NOTICES.md)。本项目与 AMD 或机械臂厂商没有官方隶属或背书关系。
